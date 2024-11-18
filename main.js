@@ -16,7 +16,7 @@ function drawCandyBackground() {
 }
 
 function drawHouse() {
-    g.fillStyle = "#D2691E"; 
+    g.fillStyle = "#D2691E";
     g.fillRect(300, 300, 200, 150);
 
     g.beginPath();
@@ -24,9 +24,17 @@ function drawHouse() {
     g.lineTo(400, 200);
     g.lineTo(500, 300);
     g.closePath();
-    g.fillStyle = "#8B0000"; 
+    g.fillStyle = "#8B0000";
     g.fill();
+
+    g.fillStyle = "#654321";
+    g.fillRect(370, 370, 60, 80);
+
+    g.fillStyle = "#ADD8E6";
+    g.fillRect(320, 320, 50, 50);
+    g.fillRect(430, 320, 50, 50);
 }
+
 
 function drawText() {
     g.fillStyle = "rgb(0,0,0)";
